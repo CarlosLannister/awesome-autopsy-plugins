@@ -5,7 +5,6 @@
 
 ## Plugins
 ### Generic 
-
 ### [Golden Image by Mathias Vetsch and Luca Taennler](https://github.com/colapse/Autopsy-GoldenImage)
 > The Golden Image module uses two data sources – a “dirty image” and a “golden image” – and compares them with each other. The main task is, to find the difference between these two data sources – newly added files, deleted files and changed files.
 
