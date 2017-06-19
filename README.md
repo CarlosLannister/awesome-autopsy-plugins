@@ -4,12 +4,17 @@
 :warning: = Autopsy Version >= 4.0 
 
 ## Plugins
+- [Generic](#generic)
+- [Windows](#windows)
+- [Android](#android)
+
 ### Generic 
+======
 ### [Golden Image by Mathias Vetsch and Luca Taennler](https://github.com/colapse/Autopsy-GoldenImage)
 > The Golden Image module uses two data sources – a “dirty image” and a “golden image” – and compares them with each other. The main task is, to find the difference between these two data sources – newly added files, deleted files and changed files.
 
 ### [Parse SQLite Del Rec by Mark McKinnon](https://github.com/markmckinnon/Autopsy-Plugins/tree/master/Parse_SQLite_Del_Records)
-> This module takes user input from a form. The user enters one or more SQLite database that they want to examine for deleted records into Autopsy. It will then export the specified SQLite database files to the temp directory then parse the SQLite database and create a custom artifact(s) for each table in the database. The custom artifacts have a name in the format of SQLite Database <FileName> Table <Table Name> DELETED Records with custom attributes for each artifact. Once it is complete the UI is notified that a new artifact has been added. This plugin can create a lot of extracted content so use it wisely. It is also not very fast on large database tables so this will need to be addressed in the future.
+> This module takes user input from a form. The user enters one or more SQLite database that they want to examine for deleted records into Autopsy. It will then export the specified SQLite database files to the temp directory then parse the SQLite database and create a custom artifact(s) for each table in the database. The custom artifacts have a name in the format of SQLite Database \<FileName\> Table \<Table Name\> DELETED Records with custom attributes for each artifact. Once it is complete the UI is notified that a new artifact has been added. This plugin can create a lot of extracted content so use it wisely. It is also not very fast on large database tables so this will need to be addressed in the future.
 
 ### [GoldBuild by John Lukach](https://github.com/jblukach/AutopsyModules/tree/master/GoldBuild)
 > Export MD5 hashes to create a hash library for analysis
@@ -36,9 +41,10 @@
 > Documentation - http://blog.4n6ir.com/2016/05/autopsy-python-multi-user-modules.html
 
 ### [Parse SQLite DB by Mark McKinnon](https://github.com/markmckinnon/Autopsy-Plugins/tree/master/Parse_SQLite_Databases)
-> This module takes user input from a form. The user enters one or more SQLite database that they want to import into Autopsy. It will then export the specified SQLite database files to the temp directory then open the SQLite database and create a custom artifact(s) for each table in the database. The custom artifacts have a name in the format of SQLite Database <FileName> Table <Table Name> with custom attributes for each artifact. The blob database type is not handled and a text string message is specified stating this. Once it is complete the UI is notified that a new artifact has been added. This plugin can create a lot of extracted content so use it wisely. It is also not very fast on large database tables so this will need to be addressed in the future.
+> This module takes user input from a form. The user enters one or more SQLite database that they want to import into Autopsy. It will then export the specified SQLite database files to the temp directory then open the SQLite database and create a custom artifact(s) for each table in the database. The custom artifacts have a name in the format of SQLite Database \<FileName\> Table \<Table Name\> with custom attributes for each artifact. The blob database type is not handled and a text string message is specified stating this. Once it is complete the UI is notified that a new artifact has been added. This plugin can create a lot of extracted content so use it wisely. It is also not very fast on large database tables so this will need to be addressed in the future.
 
 ### Windows 
+======
 ### [Prefetch Parser by Mark McKinnon](http://redwolfcomputerforensics.com/downloads/Autopsy_Python_Module_Process_Prefetch_Files.ziphttps://github.com/markmckinnon/Autopsy-Plugins/tree/master/Process_Prefetch_Files_V41)
 > Parses prefetch on a windows computer and displays the details in the UI
 
@@ -80,6 +86,7 @@
 > This module will extract all the WebcacheV01.dat files for all users to the temp directory and then call an external program to parse the Webcache and store the information into a SQLite database. The SQLite database will then be imported into numerous custom artifact(s) that have a prefix of Webcache in the name with custom attributes and will notify the UI after it is completed that a new artifact has been added to the Extracted content. This plugin may create numerous different artifacts.
 
 ### Android 
+======
 ### [Android Geodata XML/Crawler by Roberto Amelio](https://github.com/robiame/AndroidGeodata)
 > The modules aim to collect and display significant amounts of data through which an investigator can consider reporting whereabouts the analysed mobile device has been taken.
 
