@@ -9,7 +9,6 @@
 - [Android](#android)
 
 ### Generic 
-======
 ### [Golden Image by Mathias Vetsch and Luca Taennler](https://github.com/colapse/Autopsy-GoldenImage)
 > The Golden Image module uses two data sources – a “dirty image” and a “golden image” – and compares them with each other. The main task is, to find the difference between these two data sources – newly added files, deleted files and changed files.
 
@@ -42,9 +41,18 @@
 
 ### [Parse SQLite DB by Mark McKinnon](https://github.com/markmckinnon/Autopsy-Plugins/tree/master/Parse_SQLite_Databases)
 > This module takes user input from a form. The user enters one or more SQLite database that they want to import into Autopsy. It will then export the specified SQLite database files to the temp directory then open the SQLite database and create a custom artifact(s) for each table in the database. The custom artifacts have a name in the format of SQLite Database \<FileName\> Table \<Table Name\> with custom attributes for each artifact. The blob database type is not handled and a text string message is specified stating this. Once it is complete the UI is notified that a new artifact has been added. This plugin can create a lot of extracted content so use it wisely. It is also not very fast on large database tables so this will need to be addressed in the future.
+Payment Card Scanning Module  by Shea Nangle
+
+### [Payment Card Scanning Module  by Shea Nangle](https://github.com/ultrashea/autopsy-payment-card-scanner)
+> This Autopsy module will search for possible payment card numbers, and will then check the Luhn checksum of each possible payment card number, which will provide a greater degree of confidence regarding if a numeric sequence is a payment card number or not.
+
+### [TagFilter by Mathias Vetsch and Luca Taennler](https://github.com/colapse/Autopsy-TagFilter)
+> In Autopsy there are several tags of various modules which have the same or a similar meaning (For example tags to mark files as “known-good”). In Autopsy there is a listing of files per tag, but you might want to have a list containing all files that were tagged with “known-good”-a-like tags. The TagFilter module. This module enables you to create a list of files by applying several filters (for tags). You can add an unlimited amount of filters and connect them by AND-OR operators. Further on you can also specify f you want the filter to be true or false (File contains or doesn’t contain tag). Besides that, you can also create so called “Filter Groups” in which you can combine filters. The filters are applied top-down and they are built up similar to the SQL WHERE clause. You can also select if you want to search for files on all data sources within your case or just a specific one. In the end you will get a list with all the files that match your filter.
+
+### [Virustotal online checker by Mathias Vetsch and Luca Taennler](https://github.com/mvetsch/VirusTotalOnlineChecker)
+> Virustotal is an online service that allows to identify known-bad files. The service is free to use. The Virustotal online checker module allows to automatically check files on imported data sources against the virustotal service.
 
 ### Windows 
-======
 ### [Prefetch Parser by Mark McKinnon](http://redwolfcomputerforensics.com/downloads/Autopsy_Python_Module_Process_Prefetch_Files.ziphttps://github.com/markmckinnon/Autopsy-Plugins/tree/master/Process_Prefetch_Files_V41)
 > Parses prefetch on a windows computer and displays the details in the UI
 
@@ -85,8 +93,20 @@
 ### [Parse WebCache by Mark McKinnon](https://github.com/markmckinnon/Autopsy-Plugins/tree/master/Webcache)
 > This module will extract all the WebcacheV01.dat files for all users to the temp directory and then call an external program to parse the Webcache and store the information into a SQLite database. The SQLite database will then be imported into numerous custom artifact(s) that have a prefix of Webcache in the name with custom attributes and will notify the UI after it is completed that a new artifact has been added to the Extracted content. This plugin may create numerous different artifacts.
 
+### [JumpList AD by Mark McKinnon](https://github.com/markmckinnon/Autopsy-Plugins/tree/master/Jump_List_AD)
+> This module will extract all the Jump list Auto destination files for all users to the temp directory and then call an external program to parse the files and store the information into a SQLite database. The SQLite database will then be imported into a custom artifact named Jump List Auto Dest with custom attributes and will notify the UI after it is completed that a new artifact has been added to the Extracted content.
+
+### [P2P Forensic by Carlos Cilleruelo Rodríguez](https://github.com/CarlosLannister/P2PForensic)
+> The main purpose of this plugin is try to get usage information of P2P Windows programs in a forensics environment. 
+
+Supported P2P programs:
+- Emule
+- utorrent and BitTorrent
+
+### [AuthentiCode Verification by Mathias Vetsch and Luca Taennler](https://github.com/mvetsch/Autopsy-AuthentiCodeVerification)
+> The module verifies code signing certificates of Windows executables. It creates Content Tags with the Signer Name of the binary. This module helps to quickly eliminate known-good files from the OS vendor. You can also list the files from any unknown publisher, that signed software on the system you are investigating on. 
+
 ### Android 
-======
 ### [Android Geodata XML/Crawler by Roberto Amelio](https://github.com/robiame/AndroidGeodata)
 > The modules aim to collect and display significant amounts of data through which an investigator can consider reporting whereabouts the analysed mobile device has been taken.
 
