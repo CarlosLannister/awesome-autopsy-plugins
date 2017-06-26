@@ -7,7 +7,7 @@
 - [Generic](#generic)
 - [Windows](#windows)
 - [Android](#android)
-- [Law Enforcement](#lawenforcement)
+- [Law Enforcement](#law-enforcement)
 
 ### Generic 
 ### [Video Triage](http://www.autopsy.com/add-on-modules/autopsy-video-triage-module/)
