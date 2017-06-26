@@ -7,7 +7,7 @@
 - [Generic](#generic)
 - [Windows](#windows)
 - [Android](#android)
-- [LawEnforcement](#LawEnforcement)
+- [Law Enforcement](#law enforcement)
 
 ### Generic 
 ### [Video Triage](http://www.autopsy.com/add-on-modules/autopsy-video-triage-module/)
@@ -114,7 +114,7 @@ Supported P2P programs:
 ### [Android Geodata XML/Crawler by Roberto Amelio](https://github.com/robiame/AndroidGeodata)
 > The modules aim to collect and display significant amounts of data through which an investigator can consider reporting whereabouts the analysed mobile device has been taken.
 
-### LawEnforcement
+### Law Enforcement
 ### [SmutDetect4Autopsy](https://github.com/rajwitt/SmutDetect4Autopsy)
 > Simple Scan of JPG, BMP, PNG & GIF files (seletion of files based on file signatures) for pixels with skin tone and computing percentages. Files are tagged with skin-tone percentages in increments of 10 to allow a categorised view of thumbnails
 
