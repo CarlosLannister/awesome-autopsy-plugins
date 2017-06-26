@@ -7,8 +7,12 @@
 - [Generic](#generic)
 - [Windows](#windows)
 - [Android](#android)
+- [Law enforcement](#law enforcement)
 
 ### Generic 
+### [Video Triage](http://www.autopsy.com/add-on-modules/autopsy-video-triage-module/)
+> The Autopsy Video Triage module splits a video file into easily viewable thumbnail images (keyframes). By integrating directly in the Autopsy user interface, this module provides law enforcement, intelligence analysts, and investigators an efficient triage capability for video content.
+
 ### [Golden Image by Mathias Vetsch and Luca Taennler](https://github.com/colapse/Autopsy-GoldenImage)
 > The Golden Image module uses two data sources – a “dirty image” and a “golden image” – and compares them with each other. The main task is, to find the difference between these two data sources – newly added files, deleted files and changed files.
 
@@ -110,6 +114,13 @@ Supported P2P programs:
 ### [Android Geodata XML/Crawler by Roberto Amelio](https://github.com/robiame/AndroidGeodata)
 > The modules aim to collect and display significant amounts of data through which an investigator can consider reporting whereabouts the analysed mobile device has been taken.
 
+### Law enforcement
+### [SmutDetect4Autopsy](https://github.com/rajwitt/SmutDetect4Autopsy)
+> Simple Scan of JPG, BMP, PNG & GIF files (seletion of files based on file signatures) for pixels with skin tone and computing percentages. Files are tagged with skin-tone percentages in increments of 10 to allow a categorised view of thumbnails
 
+> Documentantion - http://www.4ensics.co.uk/smutdetect4autopsy/
 
+### [Project Vic and C4P/All integration](http://www.basistech.com/digital-forensics/autopsy/le-bundle/)
+> Using these modules, you can automatically identify what images are known child exploitation images and get their categorization.
 
+> Documentantion - http://www.basistech.com/digital-forensics/autopsy/le-bundle/
