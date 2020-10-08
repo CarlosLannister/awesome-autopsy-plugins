@@ -19,29 +19,29 @@
 ### [Parse SQLite Del Rec by Mark McKinnon](https://github.com/markmckinnon/Autopsy-Plugins/tree/master/Parse_SQLite_Del_Records)
 > This module takes user input from a form. The user enters one or more SQLite database that they want to examine for deleted records into Autopsy. It will then export the specified SQLite database files to the temp directory then parse the SQLite database and create a custom artifact(s) for each table in the database. The custom artifacts have a name in the format of SQLite Database \<FileName\> Table \<Table Name\> DELETED Records with custom attributes for each artifact. Once it is complete the UI is notified that a new artifact has been added. This plugin can create a lot of extracted content so use it wisely. It is also not very fast on large database tables so this will need to be addressed in the future.
 
-### [GoldBuild by John Lukach](https://github.com/jblukach/AutopsyModules/tree/master/GoldBuild)
+### [GoldBuild by John Lukach](https://github.com/CarlosLannister/AutopsyModules/tree/master/GoldBuild)
 > Export MD5 hashes to create a hash library for analysis
 
-> Documentation - http://blog.4n6ir.com/2015/09/autopsy-python-gold-build-module.html
+> Documentation - https://web.archive.org/web/20170214060926/http://blog.4n6ir.com/2015/09/autopsy-python-gold-build-module.html
 
-### [LowHangingFruit by John Lukach](https://github.com/jblukach/AutopsyModules/tree/master/LowHangingFruit)
+### [LowHangingFruit by John Lukach](https://github.com/CarlosLannister/AutopsyModules/tree/master/LowHangingFruit)
 > Export unknown hashes after analysis for Virus Total comparisons
 
-> Documentation - http://blog.4n6ir.com/2015/09/autopsy-python-low-hanging-fruit-module.html
+> Documentation - https://web.archive.org/web/20170727000938/http://blog.4n6ir.com/2015/09/autopsy-python-low-hanging-fruit-module.html
 
-### [BuildMetaInfo by John Lukach](https://github.com/jblukach/AutopsyModules/tree/master/BuildMetaInfo)
+### [BuildMetaInfo by John Lukach](https://github.com/CarlosLannister/AutopsyModules/tree/master/BuildMetaInfo)
 > Export full path to SQLite database for meta data gold build
 
-### [MatchMetaInfo by John Lukach](https://github.com/jblukach/AutopsyModules/tree/master/MatchMetaInfo)
+### [MatchMetaInfo by John Lukach](https://github.com/CarlosLannister/AutopsyModules/tree/master/MatchMetaInfo)
 > Compare meta data to identify unknown full paths hidden in plain sight
 
 ### [NetArchae by Emily Wicki](https://github.com/thePidge/netArchae)
 > This Autopsy Module extracts Packet Captures (pcaps) from Data Sources. It then sorts them under a “PCAPs” tab within “Interesting Files” and allows the extracted pcaps to be parsed by KeywordSearch.
 
-### [HashDump by John Lukach](https://github.com/jblukach/AutopsyMultiUserModules)
+### [HashDump by John Lukach](https://github.com/jblukach/AutopsyMultiUserModules) [dead link]
 > HashDump.py creates a HashDump.txt file in the base of the case folder and it contains hashes of files in the case. HashDump was built as a proof of concept that requires the Hash Lookup Ingest Module be run prior to calculate the MD5 hashes. HashDump.py builds the ingest module for the Autopsy user interface that passes the case file location as an argument to the HashDump.exe python program.
 
-> Documentation - http://blog.4n6ir.com/2016/05/autopsy-python-multi-user-modules.html
+> Documentation - https://web.archive.org/web/20161022033651/http://blog.4n6ir.com/2016/05/autopsy-python-multi-user-modules.html
 
 ### [Parse SQLite DB by Mark McKinnon](https://github.com/markmckinnon/Autopsy-Plugins/tree/master/Parse_SQLite_Databases)
 > This module takes user input from a form. The user enters one or more SQLite database that they want to import into Autopsy. It will then export the specified SQLite database files to the temp directory then open the SQLite database and create a custom artifact(s) for each table in the database. The custom artifacts have a name in the format of SQLite Database \<FileName\> Table \<Table Name\> with custom attributes for each artifact. The blob database type is not handled and a text string message is specified stating this. Once it is complete the UI is notified that a new artifact has been added. This plugin can create a lot of extracted content so use it wisely. It is also not very fast on large database tables so this will need to be addressed in the future.
@@ -60,7 +60,7 @@ Payment Card Scanning Module  by Shea Nangle
 ### [Prefetch Parser by Mark McKinnon](http://redwolfcomputerforensics.com/downloads/Autopsy_Python_Module_Process_Prefetch_Files.ziphttps://github.com/markmckinnon/Autopsy-Plugins/tree/master/Process_Prefetch_Files_V41)
 > Parses prefetch on a windows computer and displays the details in the UI
 
-### [FileMarker by John Lukach](https://github.com/jblukach/AutopsyModules/tree/master/FileMarker)
+### [FileMarker by John Lukach](https://github.com/CarlosLannister/AutopsyModules/tree/master/FileMarker)
 > Quick collection of important disk artifacts for triage
 - File System: MFT, LogFile, UsnJrnl
 - Event Logs: evtx
@@ -68,7 +68,7 @@ Payment Card Scanning Module  by Shea Nangle
 - Prefetch files: pf 
 - SYSTEM, SECURITY, SOFTWARE, SAM, NTUSER.DATm, UsrClass.dat, RecentFileCache.bcf, Amcache.hve
 
-> Documentation -  http://blog.4n6ir.com/2015/09/autopsy-python-file-marker-module.html 
+> Documentation -  https://web.archive.org/web/20170925135452/http://blog.4n6ir.com/2015/09/autopsy-python-file-marker-module.html 
 
 ### [Parse Amcache by Mark McKinnon](https://github.com/markmckinnon/Autopsy-Plugins/tree/master/Process_Amcache)
 > This module takes user input from a form. The user can select from three (3) Amcache reports to choose from, program entries, file entries and unassociated programs. It will then export the specified amcache.hve files to the temp directory then call an external program to parse out the programs and files and insert them into a SQLite database. The SQLite database is then imported into Autopsy and custom artifact(s) based on the user input will be created. The custom artifacts have a prefix of Amcache and custom attributes are created for each artifact. Once it is complete the UI is notified that a new artifact has been added.
@@ -118,9 +118,9 @@ Supported P2P programs:
 ### [SmutDetect4Autopsy](https://github.com/rajwitt/SmutDetect4Autopsy)
 > Simple Scan of JPG, BMP, PNG & GIF files (seletion of files based on file signatures) for pixels with skin tone and computing percentages. Files are tagged with skin-tone percentages in increments of 10 to allow a categorised view of thumbnails
 
-> Documentantion - http://www.4ensics.co.uk/smutdetect4autopsy/
+> Documentation - http://www.4ensics.co.uk/smutdetect4autopsy/
 
 ### [Project Vic and C4P/All integration](http://www.basistech.com/digital-forensics/autopsy/le-bundle/)
 > Using these modules, you can automatically identify what images are known child exploitation images and get their categorization.
 
-> Documentantion - http://www.basistech.com/digital-forensics/autopsy/le-bundle/
+> Documentation - http://www.basistech.com/digital-forensics/autopsy/le-bundle/
