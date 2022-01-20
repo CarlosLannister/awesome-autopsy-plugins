@@ -56,6 +56,12 @@ Payment Card Scanning Module  by Shea Nangle
 ### [Virustotal online checker by Mathias Vetsch and Luca Taennler](https://github.com/mvetsch/VirusTotalOnlineChecker)
 > Virustotal is an online service that allows to identify known-bad files. The service is free to use. The Virustotal online checker module allows to automatically check files on imported data sources against the virustotal service.
 
+### [Forensics.im Microsoft Teams Parser & Autopsy Plugin by Alexander Bilz](https://github.com/lxndrblz/forensicsim)
+> Forensics.im is an Autopsy Plugin, which allows parsing levelDB of modern Electron-based Instant Messenger Applications like Microsoft Teams. Unlike the existing levelDB plugin, Forensics.im also parses the binary ldb files, which contain the majority of the entries and allows identifies individual entities, such as messages and contacts, and presets these in Autopsy's blackboard view.
+
+### [Auto-Start Extensibility Points (ASEPs) by Wei Jie](https://github.com/Weijo/Autopsy-Autoruns)
+> Autopsy plugin that scans the Auto-Start Extensibility Points (ASEPs) and list out the potential persistences.
+
 ### Windows 
 ### [Prefetch Parser by Mark McKinnon](http://redwolfcomputerforensics.com/downloads/Autopsy_Python_Module_Process_Prefetch_Files.ziphttps://github.com/markmckinnon/Autopsy-Plugins/tree/master/Process_Prefetch_Files_V41)
 > Parses prefetch on a windows computer and displays the details in the UI
